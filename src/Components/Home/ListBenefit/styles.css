@@ -1,0 +1,14 @@
+.benefit {
+  padding: 40px 80px;
+}
+
+.benefit .benefit__title {
+  font-weight: 800;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.benefit .benefit__subTitle {
+  font-weight: 400;
+  font-size: 16px;
+}

@@ -1,0 +1,31 @@
+.listPromotion {
+  margin: 40px 80px;
+}
+
+.promo {
+  padding: 10px;
+  /* margin: 10px; */
+  color: #ffffff;
+}
+
+.promo > div {
+  padding: 80px;
+  background-color: black;
+}
+
+.promo > button {
+  color: #024e82;
+  font-size: 14px;
+}
+
+.promo .promo__title {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.promo .promo__subTitle {
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
