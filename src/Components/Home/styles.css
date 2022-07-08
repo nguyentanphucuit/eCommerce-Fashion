@@ -1,0 +1,18 @@
+.homepage {
+  text-align: center;
+}
+
+.homepage .homepage__discover {
+  padding: 42px 0;
+}
+.homepage .homepage__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+}
+
+.homepage .homepage__subtitle {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 48px;
+}
