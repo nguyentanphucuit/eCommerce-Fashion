@@ -20,8 +20,8 @@ function ListBenefit(props) {
   return (
     <Row className="benefit">
       {listBenefit.map((benefit) => (
-        <Col>
-          <Row key={benefit.src}>
+        <Col key={benefit.src}>
+          <Row>
             <Col className="col-2">
               <Image src={benefit.src}></Image>
             </Col>
