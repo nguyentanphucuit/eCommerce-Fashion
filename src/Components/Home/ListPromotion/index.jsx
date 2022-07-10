@@ -22,7 +22,7 @@ function ListPromotion(props) {
   return (
     <Row className="listPromotion">
       {listPromotion.map((promo) => (
-        <Col className={promo.col + ' promo'}>
+        <Col className={promo.col + ' promo'} key={promo.title}>
           <div>
             <p className="promo__title">{promo.title}</p>
             <p className="promo__subTitle">{promo.subTitle}</p>
