@@ -44,7 +44,6 @@ function Home(props) {
 
   return (
     <div className="homepage">
-      <NavBar />
       <Image src={slideHomepage} fluid></Image>
       <ListClothes listClothes={listDiscovers} title="Discover NEW Arrivals" subTitle="Recently added shirts!" />
       <ListBenefit />
