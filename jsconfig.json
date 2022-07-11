@@ -3,9 +3,9 @@
     "baseUrl": "./",
     "paths": {
       "@src/*": ["src/*"],
-      "@assets": ["src/Assets"],
-      "@assets/*": ["src/Assets/*"],
-      "@images/*": ["src/Assets/Images/*"]
+      "@assets": ["src/assets"],
+      "@assets/*": ["src/assets/*"],
+      "@images/*": ["src/assets/images/*"]
     }
   },
   "include": ["./src/**/*"]

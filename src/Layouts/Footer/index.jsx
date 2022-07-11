@@ -1,31 +1,40 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { Col, Row, InputGroup, FormControl, Image } from 'react-bootstrap';
-import { ChevronRight } from 'react-bootstrap-icons';
-import visa from '../../Assets/Images/visa.png';
-import visaElectron from '../../Assets/Images/visa-electron.png';
-import masterCard from '../../Assets/Images/master-card.png';
-import paypal from '../../Assets/Images/paypal.png';
-import './styles.css';
+import React from "react";
+import PropTypes from "prop-types";
+import { Col, Row, InputGroup, FormControl, Image } from "react-bootstrap";
+import { ChevronRight } from "react-bootstrap-icons";
+import visa from "../../assets/images/visa.png";
+import visaElectron from "../../assets/images/visa-electron.png";
+import masterCard from "../../assets/images/master-card.png";
+import paypal from "../../assets/images/paypal.png";
+import "./styles.css";
 
 Footer.propTypes = {};
 
 const listFooter = [
-  { title: 'COMPANY INFO', subTitle: ['About Us', 'Latest Posts', 'Contact Us', 'Shop'], isEmailInput: false },
   {
-    title: 'HELP LINKS',
-    subTitle: ['Tracking', 'Order Status', 'Delivery', 'Shipping Info', 'FAQ'],
+    title: "COMPANY INFO",
+    subTitle: ["About Us", "Latest Posts", "Contact Us", "Shop"],
     isEmailInput: false,
   },
   {
-    title: 'USEFUL LINKS',
-    subTitle: ['Special Offers', 'Gift Cards', 'Advetising', 'Terms of Use'],
+    title: "HELP LINKS",
+    subTitle: ["Tracking", "Order Status", "Delivery", "Shipping Info", "FAQ"],
     isEmailInput: false,
   },
-  { title: 'GET IN THE KNOW', subTitle: [], isEmailInput: true },
+  {
+    title: "USEFUL LINKS",
+    subTitle: ["Special Offers", "Gift Cards", "Advetising", "Terms of Use"],
+    isEmailInput: false,
+  },
+  { title: "GET IN THE KNOW", subTitle: [], isEmailInput: true },
 ];
 
-const listFooterBottom = [{ src: visa }, { src: masterCard }, { src: paypal }, { src: visaElectron }];
+const listFooterBottom = [
+  { src: visa },
+  { src: masterCard },
+  { src: paypal },
+  { src: visaElectron },
+];
 
 function Footer(props) {
   return (
@@ -57,12 +66,16 @@ function Footer(props) {
       <hr />
       <Row className="footer__bottom justify-content-start">
         <Col className="text-start">
-          <p style={{ margin: '10px' }}>© 2020 NorthStar eCommerce</p>
+          <p style={{ margin: "10px" }}>© 2020 NorthStar eCommerce</p>
           <p>Privacy Policy Terms & Conditions</p>
         </Col>
         <Col className="align-self-center text-end ">
           {listFooterBottom.map((footerBottom) => (
-            <Image className="px-2" src={footerBottom.src} key={footerBottom.src}></Image>
+            <Image
+              className="px-2"
+              src={footerBottom.src}
+              key={footerBottom.src}
+            ></Image>
           ))}
         </Col>
       </Row>
