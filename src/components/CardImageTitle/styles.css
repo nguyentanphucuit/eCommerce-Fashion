@@ -1,0 +1,15 @@
+.cardImageTitle {
+  position: relative;
+}
+
+.title {
+  position: absolute;
+  left: 4.6%;
+  bottom: 17%;
+  color: white;
+  font-size: 48px;
+  font-weight: 400;
+  font-family: "Lato";
+  text-transform: uppercase;
+  z-index: 100;
+}

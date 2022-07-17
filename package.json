@@ -23,7 +23,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "postinstall": "link-module-alias"
+    "rm_node_modules": "rm -rf node_modules/ && npm install"
   },
   "eslintConfig": {
     "extends": [
@@ -42,11 +42,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "link-module-alias": "^1.2.0"
-  },
-  "_moduleAliases": {
-    "@src": "./src"
   }
 }
