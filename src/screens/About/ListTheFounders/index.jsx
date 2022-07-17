@@ -1,6 +1,6 @@
 import React, { useMemo } from "react";
 import { Col, Row } from "react-bootstrap";
-import CardImageButton from "../CardImageButton";
+import TheFoundersItem from "./TheFoundersItem";
 import "../styles.css";
 import { listTheFounders } from "constants/data";
 
@@ -8,12 +8,12 @@ const ListTheFounders = () => {
   const renderItem = (item) => {
     return (
       <Col key={item.id}>
-        <CardImageButton image={item.image} />
+        <TheFoundersItem name={item.name} image={item.image} />
       </Col>
     );
   };
 
-  const renderListBuyNow = useMemo(() => {
+  const renderListTheFounders = useMemo(() => {
     return (
       <div className="list">
         <Row>{listTheFounders.map(renderItem)}</Row>
@@ -24,7 +24,7 @@ const ListTheFounders = () => {
   return (
     <div className="listTheFounders">
       <h2>The Founders</h2>
-      {renderListBuyNow}
+      {renderListTheFounders}
     </div>
   );
 };
