@@ -5,6 +5,9 @@ const {
   FURQUAN_ABID,
   ABDULLAH_AD,
   ABRAR_KHAN,
+  STACY,
+  TIFFANY,
+  JAMES,
 } = require("./images");
 
 const listProductionBuyNow = [
@@ -41,28 +44,28 @@ const listTheFounders = [
   },
 ];
 
-const testimonials = [
+const listTestimonials = [
   {
     id: 0,
     by: "Stacy",
-    avatar: HM_JAWAD,
+    avatar: STACY,
     comment:
       "Once we ordered some accessories items and we got the products delivered in our doorstep, the customer support was super helpful and they answered all my queries.",
   },
   {
     id: 1,
     by: "Tiffany",
-    avatar: HM_JAWAD,
+    avatar: TIFFANY,
     comment:
       "I ordered 5 shirts from them and received them in no time. The customer support was awesome!",
   },
   {
     id: 2,
     by: "James",
-    avatar: HM_JAWAD,
+    avatar: JAMES,
     comment:
       "I got a wrong shirt so I contacted them and they happily offered me a refund. I will surely shop from them again.",
   },
 ];
 
-export { listProductionBuyNow, listTheFounders, testimonials };
+export { listProductionBuyNow, listTheFounders, listTestimonials };
