@@ -2,8 +2,8 @@ import React from "react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Home from "./screens/Home";
 import About from "./screens/About";
-import NavBar from "./layouts/NavBar";
-import Footer from "./layouts/Footer";
+import NavBar from "layout/NavBar";
+import Footer from "layout/Footer";
 import "./App.css";
 
 function App() {

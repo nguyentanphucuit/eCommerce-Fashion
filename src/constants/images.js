@@ -1,4 +1,4 @@
-import ICON_QUOTE from "assets/images/icon-quote.png";
+import ICON_QUOTE from "../assets/images/icon-quote.png";
 import NORTH_STAR from "assets/images/north-star.jpeg";
 import MEN from "assets/images/men.png";
 import WOMEN from "assets/images/women.png";

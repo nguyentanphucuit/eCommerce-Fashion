@@ -2,8 +2,7 @@ import React from "react";
 import { Image } from "react-bootstrap";
 import PropTypes from "prop-types";
 import "../../styles.css";
-import { MEN } from "constants/images";
-import { ICON_QUOTE } from "constants/images";
+import { MEN, ICON_QUOTE } from "constants/images";
 
 TestimonialsItem.propTypes = {
   name: PropTypes.string,

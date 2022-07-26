@@ -2,7 +2,6 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Image } from "react-bootstrap";
 import slideHomepage from "../../assets/images/slide-homepage.png";
-import NavBar from "../../layouts/NavBar";
 import "./styles.css";
 import denimJacket from "../../assets/images/denim-jacket.png";
 import plainWhiteShirt from "../../assets/images/plain-white-shirt.png";
@@ -18,7 +17,6 @@ import poloWhiteShirt from "../../assets/images/polo-white-shirt.png";
 import pinkCasualShirt from "../../assets/images/pink-casual-shirt.png";
 import ListBenefit from "./ListBenefit";
 import ListPromotion from "./ListPromotion";
-import Footer from "../../layouts/Footer";
 import ListClothes from "./ListClothes";
 
 Home.propTypes = {};
@@ -57,7 +55,6 @@ function Home(props) {
         title="Top Seller"
         subTitle="Browse our top-selling products"
       />
-      <Footer />
     </div>
   );
 }
