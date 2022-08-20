@@ -2,7 +2,7 @@
   position: relative;
 }
 
-.title {
+.cardImageTitle .title {
   position: absolute;
   left: 4.6%;
   bottom: 17%;

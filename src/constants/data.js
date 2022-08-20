@@ -68,4 +68,19 @@ const listTestimonials = [
   },
 ];
 
-export { listProductionBuyNow, listTheFounders, listTestimonials };
+const listProduct = [
+  {
+    id: 0,
+    nameProduct: "Plain White Shirt",
+    price: 59,
+    quantity: 1,
+  },
+  {
+    id: 1,
+    nameProduct: "Denim Jacket",
+    price: 39,
+    quantity: 3,
+  }
+]
+
+export { listProductionBuyNow, listTheFounders, listTestimonials, listProduct };

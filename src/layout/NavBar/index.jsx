@@ -1,12 +1,9 @@
 import React from "react";
-import PropTypes from "prop-types";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { Person, Cart, List } from "react-bootstrap-icons";
 import { Link, Outlet } from "react-router-dom";
 
-NavBar.propTypes = {};
-
-function NavBar(props) {
+function NavBar() {
   return (
     <div className="NavBar">
       <Navbar bg="light" expand="lg">
@@ -37,7 +34,7 @@ function NavBar(props) {
               <Nav.Link href="#deets">
                 <Person></Person>
               </Nav.Link>
-              <Nav.Link href="#memes">
+              <Nav.Link as={Link} to={"/cart"} href="#action3">
                 <Cart></Cart>
               </Nav.Link>
               <Nav.Link href="#memes">

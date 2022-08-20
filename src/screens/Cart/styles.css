@@ -1,0 +1,179 @@
+.cart {
+  padding-left: 64px;
+  padding-right: 64px;
+}
+
+.direction {
+  display: flex;
+  align-self: flex-start;
+}
+
+.headerProductItem {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ebebeb;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
+.headerProductItem .header {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: #1d1d1d;
+  text-align: left;
+}
+
+.productItem {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ebebeb;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  align-items: center;
+}
+
+.productItem .remove {
+  text-align: left;
+}
+
+.productItem .remove button {
+  border: 0px;
+  padding-left: 0px;
+  margin-left: 0px;
+  font-family: "Baloo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #818181;
+  background-color: white;
+}
+
+.productItem .image .imageProduct {
+  width: 48px;
+  height: 48px;
+}
+
+.productItem .name {
+  font-family: "Baloo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #555555;
+  text-align: left;
+}
+
+.productItem .price {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #555555;
+  text-align: left;
+}
+
+.productItem .quantity {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #555555;
+}
+
+.productItem .quantity div {
+  width: 53px;
+  height: 42px;
+  border: 2px solid #ebebeb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.productItem .total {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #1d1d1d;
+  text-align: left;
+}
+
+.cartTotal {
+  width: 50%;
+}
+
+.cartTotal .title {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  margin-top: 83px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.cartTotal .horizontalItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 18px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ebebeb;
+}
+
+.cartTotal .horizontalItem .title {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 0px;
+}
+
+.cartTotal .horizontalItem .isBoldTitle {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 0px;
+}
+
+.cartTotal .unBorderHorizontalItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 18px;
+}
+
+.cartTotal .unBorderHorizontalItem .title {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 0px;
+}
+
+.cartTotal .unBorderHorizontalItem .isBoldTitle {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 0px;
+}
+
+.cartTotal .btnCheckout {
+  display: flex;
+  border: 0px;
+  padding: 18px 36px;
+  gap: 10px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  border-radius: 3px;
+  background-color: #d6763c;
+  margin-top: 18px;
+  margin-bottom: 107px;
+}

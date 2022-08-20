@@ -1,7 +1,8 @@
 import React from "react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import Home from "./screens/Home";
-import About from "./screens/About";
+import Home from "screens/Home";
+import Cart from "screens/Cart";
+import About from "screens/About";
 import NavBar from "layout/NavBar";
 import Footer from "layout/Footer";
 import "./App.css";
@@ -14,7 +15,7 @@ function App() {
         <Routes>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
-
+          <Route path="cart" element={<Cart />} />
           <Route path="*" element={<Navigate replace to="/" />} />
         </Routes>
         <Footer />

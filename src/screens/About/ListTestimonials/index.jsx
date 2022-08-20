@@ -1,5 +1,5 @@
 import React, { useMemo } from "react";
-import { Col, Row } from "react-bootstrap";
+import { Col } from "react-bootstrap";
 import TestimonialsItem from "./TestimonialsItem";
 import { listTestimonials } from "constants/data";
 
@@ -7,6 +7,7 @@ const ListTestimonials = () => {
   const renderItem = (item) => {
     return (
       <TestimonialsItem
+        key={item.id}
         name={item.by}
         avatar={item.avatar}
         comment={item.comment}
